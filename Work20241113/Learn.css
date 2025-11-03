@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    /* 沒邊界-->*/
+}
+
+h1{
+    /* 置中 */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    color:rgb(27, 7, 244);
+
+    /*圖層*/
+    z-index:1;
+}
+/*可用於p(下行用的，顯示在上面)
+p{
+    置中 
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    color:rgb(27, 7, 244);
+
+    圖層
+    z-index:1;
+}
+    */
+.videoTEST{
+    position: fixed;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height:100% ;
+}
